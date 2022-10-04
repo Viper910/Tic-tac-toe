@@ -215,6 +215,7 @@ function winningCheck() {
       matrix[b - 1].symbol === matrix[c - 1].symbol
     ) {
       const ch = matrix[a - 1].symbol === "x" ? "Player 1" : "Player 2";
+      matrix.forEach((ele) => (ele.disable = true));
       judge.textContent = ch + " Wins!!!!!!!!"
     }
   });

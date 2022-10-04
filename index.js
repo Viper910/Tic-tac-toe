@@ -199,6 +199,7 @@ function newGame() {
   tile8.textContent = "";
   tile9.textContent = "";
   switchPlayer = true;
+  judge.textContent = switchPlayer ? "Player 1 move" : "Player 2 move";
 }
 
 newgame.addEventListener("click", newGame);

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+body {
+  background-color: #251B37;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: #FFCACA;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: center;
+}
+
+.box {
+  padding: 10px;
+  background-color: #372948;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFECEF;
+}
+
+.newgame{
+    margin-top: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #372948;
+    color: #FFCACA;
+    border-color: #FFCACA;
+}
+
+p{
+  color: #FFECEF;
+  font-family: 'Courier New', Courier, monospace;
+}
